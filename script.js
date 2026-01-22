@@ -3,7 +3,7 @@ hintText = document.querySelector(".hint span"),
 timeText = document.querySelector(".time b"),
 inputField = document.querySelector("input"),
 startBtn = document.querySelector(".start-game"),
-refreash = document.querySelector(".refreash-word"),
+refreshBtn = document.querySelector(".refreash-word"),
 checkBtn = document.querySelector(".check-word");
 
 let correctWord , timer;
@@ -39,5 +39,17 @@ const checkWord = () => {
     if(!userWord) return alert("please enter the word to check.");
     if(userWord !== correctWord) return alert(`Oops! ${userWord} is not the correct word`);
     alert(`Yey! ${correctWord.toUpperCase()} is the correct word.`);
-    startGame;
+    startGame();
 }
+
+startBtn.addEventListener("click", () => {
+    const contentDiv = document.querySelector(".content");
+    const welcomeDiv = document.querySelector(".welcome");
+
+    contentDiv.computedStyleMap.visibility = "visible";
+    welcomeDiv.remove();
+
+    startGame();
+})
+refreshBtn.addEventListener("click", startGame);
+checkBtn.addEventListener("click", checkWord);

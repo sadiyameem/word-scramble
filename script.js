@@ -39,7 +39,7 @@ const checkWord = () => {
     if(!userWord) return alert("please enter the word to check.");
     if(userWord !== correctWord) return alert(`Oops! ${userWord} is not the correct word`);
     alert(`Yey! ${correctWord.toUpperCase()} is the correct word.`);
-    startGame();
+    startGame;
 }
 
 startBtn.addEventListener("click", () => {

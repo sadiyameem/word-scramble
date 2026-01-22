@@ -33,3 +33,11 @@ const startGame = () => {
     correctWord = randomWord.words.toLowerCase();
     inputField.value = "";
 }
+
+const checkWord = () => {
+    let userWord = inputField.value.toLowerCase();
+    if(!userWord) return alert("please enter the word to check.");
+    if(userWord !== correctWord) return alert(`Oops! ${userWord} is not the correct word`);
+    alert(`Yey! ${correctWord.toUpperCase()} is the correct word.`);
+    startGame;
+}

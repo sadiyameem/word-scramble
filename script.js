@@ -8,6 +8,18 @@ checkBtn = document.querySelector(".check-word");
 
 let correctWord , timer;
 
+const gameTimer = (maxTime) => {
+    clearInterval(timer);
+    timer = setInterval(() => {
+        if(maxTime > 0) {
+            maxTime--;
+            return timeText.innerText = maxTime;
+        }
+        alert(`Time's up! ${correctWord.toUpperCase()} was the correct word.`);
+        startGame()
+    }, 1000);
+}
+
 const startGame = () => {
     gameTimer(30);
     let randomWord = words[Math.floor(Math.random() * words.length)];

@@ -9,7 +9,7 @@ body {
     padding: 0 10px;
     align-items: center;
     justify-content: center;
-    background-color: #5372f0;
+    background-color: #121212;
 }
 
 .container {
@@ -68,17 +68,17 @@ button {
 }
 
 .refresh-word {
-    background: #6c757d;
+    background: #121212;
 }
 
-.refresh-button:hover {
-    background: #5f666d;
+.refresh-word:hover {
+    background: #2ec4b6;
 }
 
 .check-word, .start-game {
-    background: #5372f0;
+    background: #121212;
 }
 
 .check-word:hover, .start-game:hover {
-    background: #2c52ed;
+    background: #2ec4b6;
 }

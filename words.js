@@ -1,27 +1,52 @@
 let words = [
     {
-        words: "labyrinth",
-        hint: "A complicated and confusing arrangement. You might find it in a puzzle or a maze."
+        words: "overwhelming",
+        hint: "Very hard to handle."
     },
 
     {
-        words: "epiphany",
-        hint: "A moment of clarity or insight."
+        words: "ironic",
+        hint: "Opposite of what you expect."
     },
 
     {
-        words: "luminous",
-        hint: "Emitting light or full of light."
+        words: "significant",
+        hint: "Important or meaningful."
     },
 
     {
-        words: "javascript",
-        hint: "The most popular programming language."
+        words: "consequence",
+        hint: "A result or effect of an action."
     },
 
     {
-        words: "solitude",
-        hint: "The state of being alone that can be peaceful and enjoyable."
+        words: "unpredictable",
+        hint: "Not able to be guessed in advance."
+    },
+
+    {
+        words: "drastic",
+        hint: "Extreme or sudden."
+    },
+
+    {
+        words: "persistent",
+        hint: "Not giving up."
+    },
+
+    {
+        words: "motivation",
+        hint: "The reason someone does something."
+    },
+
+    {
+        words: "sacrifice",
+        hint: "Giving something up for another purpose."
+    },
+
+    {
+        words: "reputation",
+        hint: "What other people think of you."
     },
 
 ]

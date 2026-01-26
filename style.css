@@ -13,10 +13,12 @@ body {
 }
 
 .container {
-    width: 440px;
+    width: auto;
+    max-width: 90%;
     border-radius: 7px;
     background-color: white;
     margin: 10px auto;
+    padding: 20px;
 }
 
 h2 {

@@ -8,6 +8,7 @@
 - Refresh button
 - Check button
 - A section to type the word
+- Alert box
 
 # How I made this
 - HTML
